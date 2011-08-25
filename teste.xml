@@ -1,2 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<teste>Ola o texto do xml!!</teste>
+<?xml version="1.0" ?>
+<teste>
+	Ola o texto do xml!!
+</teste>
+	

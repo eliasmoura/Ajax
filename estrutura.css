@@ -53,15 +53,10 @@ div#itemMenu a:link, a:visited{display:block;
 	text-decoration:none;
 	color: #000000;
 	}
-ul{
-	list-style-type:none;
- 	margin:0;
- 	padding:0;
-}
 input#itemMenu{
     background:#00ff00;
     width: 155px; height:40px;
-    border-radius:10px;
+    border-radius:13px;
     -moz-border-radius:10px;
     -webkit-border-radius:25px;
 }
@@ -70,4 +65,15 @@ input#itemMenu:hover{
 }
 input#itemMenu:active{
 	background:#ffff00;
+}
+ul#itemMenu{
+	list-style-type:none;
+ 	margin-right:auto;
+ 	margin-left:10px;
+ 	
+ 	padding:0px;
+}
+ul#itemMenu li{
+	margin-top:10px;
+	
 }
