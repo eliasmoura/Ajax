@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <title>Introdução ao Ajax</title>
+      <link rel="stylesheet" type="text/css" href="estrutura.css">
+      <script language="JavaScript" type="text/javascript">
+      	function xml(url){
+	 		alert("Funfa!!");
+   			if (window.XMLHttpRequest)
+			{// code for IE7+, Firefox, Chrome, Opera, Safari
+				xmlhttp=new XMLHttpRequest();
+			}else alert("não funfa");
+			xmlhttp.onreadystatechange = function(){
+				
+				if (xmlhttp.readyState==4){
+					if (xmlhttp.status ==200) {alert("oi");};
+					
+					xmlDoc=xmlhttp.responsetText;
+					alert(xmlhttp.responsetXML.getElementById("teste").item(0).firstchild.data);
+					document.getElementById("aqui").innerHTML = 
+    				gffgcghfffg;
+				}
+			};
+			xmlhttp.open("GET","teste.xml",true);
+			xmlhttp.send();
+			
+			alert(xmlDoc.getElementByTagName("teste").nodeValue);	
+		}
+      </script>
+      
+   </head>
+   <body id="corpo">
+     <div id="todo">
+       	<div id="autor">
+	 		<h1>Introdução ao Ajax</h1>
+	 		<h4>Elias Alves moura;
+      	   		Rodrigo Castelani dos Santos;
+      	   		Thiago Cardoso Barbosa<br>
+      	   		<font size=2>eliasmoura@acm.org; wu_eu23@hotmail.com; ace...@hotmail.com </font>
+	 		</h4>
+       	</div>
+       	
+       	<div id="menu">
+       		<ul>
+       			<li><input id="itemMenu" type="button" onclick="xml('teste.xml')" value="Introduçao" /></li>
+       			<li><input id="itemMenu" type="button" onclick="xml('teste.xml')" value="O que é Ajax?" /></li>
+       			<li><input id="itemMenu" type="button" onclick="xml('teste.xml')" value="Descrição da plataforma" /></li>
+       			<li><input id="itemMenu" type="button" onclick="xml('teste.xml')" value="Exemplos de aplicação" /></li>
+       			<li><input id="itemMenu" type="button" onclick="xml('teste.xml')" value="Estatisticas" /></li>
+       			<li><input id="itemMenu" type="button" onclick="xml('teste.xml')" value="Conclusão" /></li>
+       			<li><input id="itemMenu" type="button" onclick="xml('teste.xml')" value="Referência" /></li>
+       		</ul>
+       		
+	  	<!--<input type="text" name="texto" id="texto" value="aa" />
+	  	<input type="button" onClick="document.getElementById('autor').style.background='#ff0000'" value="muda">-->
+       	</div>
+       	<script language="JavaScript" type="text/javascript">
+       		
+    		
+       	</script>
+       	<div id="conteudo"> <span id="aqui"></span></div>
+       </div>
+   </body>
+</html>
