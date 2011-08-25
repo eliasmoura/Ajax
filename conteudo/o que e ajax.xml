@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<slide>    
+	<titulo>Descrição da plataforma</titulo>
+    <topico>Ajax é uma plataforma constituída, basicamente, das seguintes tecnologias:
+      <subtopico>XMLHttpRequest</subtopico>
+      <subtopico>DOM</subtopico>
+      <subtopico>Javascript</subtopico>
+      <subtopico>HTML/CSS</subtopico>
+    </topico>
+</slide>
+<slide>
+    <titulo>Proposta</titulo>
+    <topico>Menor Consumo de banda</topico>
+    <topico>Dinâmica</topico>
+    <topico>Aplicação</topico>
+    <topico></topico>
+</slide>
+<slide>
+	<titulo>XMLHttpRequest</titulo>
+    <topico></topico>
+</slide>
+<slide>
+	<titulo>DOM</titulo>
+    <imagem>imagem/ajax/dom.jpg</imagem>
+</slide>
+<slide>
+	<titulo>Javascript</titulo>
+    <topico>Linguagem interpretada</topico>
+    <topico>Web</topico>
+    <topico></topico>
+</slide>
+<slide></slide>
+<slide></slide>
+<slide></slide>
+<slide></slide>
+<slide></slide>
