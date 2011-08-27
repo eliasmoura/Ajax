@@ -5,10 +5,12 @@
       <title>Introdução ao Ajax</title>
       <link rel="stylesheet" type="text/css" href="css/estrutura.css">
       <script language="JavaScript" type="text/javascript" src="slideShow.js"></script>
+   	  <script language="JavaScript" type="text/javascript" src="carregaXML.js"></script>
+   	  <script language="JavaScript" type="text/javascript" src="stringPXML.js"></script>
    </head>
    <body id="corpo">
      <div id="todo">
-       	<div id="autor">
+       	<div id="cabecalho">
 	 		<h1>Introdução ao Ajax</h1>
 	 		<h4>Elias Alves moura;
       	   		Rodrigo Castelani dos Santos;
@@ -19,16 +21,16 @@
        	
        	<div id="menu">
        		<ul id="itemMenu">
-       			<li><input id="itemMenu" type="button" onclick="mostraSlide('conteudo/introducao.xml')" value="Introduçao" /></li>
-       			<li><input id="itemMenu" type="button" onclick="mostraSlide('conteudo/o que e ajax.xml')" value="O que é Ajax?" /></li>
-       			<li><input id="itemMenu" type="button" onclick="mostraSlide('conteudo/exemplos de aplicacao.xml')" value="Exemplos de aplicação" /></li>
-       			<li><input id="itemMenu" type="button" onclick="mostraSlide('conteudo/estatisticas.xml')" value="Estatisticas" /></li>
-       			<li><input id="itemMenu" type="button" onclick="mostraSlide('conteudo/conclusao.xml')" value="Conclusão" /></li>
-       			<li><input id="itemMenu" type="button" onclick="mostraSlide('conteudo/referencia.xml')" value="Referência" /></li>
+       			<li><input id="itemMenu" type="button" onclick="ajax('conteudo/introducao.xml')" value="Introduçao" /></li>
+       			<li><input id="itemMenu" type="button" onclick="ajax('conteudo/o que e ajax.xml')" value="O que é Ajax?" /></li>
+       			<li><input id="itemMenu" type="button" onclick="ajax('conteudo/exemplos de aplicacao.xml')" value="Exemplos de aplicação" /></li>
+       			<li><input id="itemMenu" type="button" onclick="ajax('conteudo/estatisticas.xml')" value="Estatísticas" /></li>
+       			<li><input id="itemMenu" type="button" onclick="ajax('conteudo/conclusao.xml')" value="Conclusão" /></li>
+       			<li><input id="itemMenu" type="button" onclick="ajax('conteudo/referencia.xml')" value="Referência" /></li>
        		</ul>
        	</div>
        	
-       	<div id="conteudo"></div>
+       	<div id="conteudo" onkeypress="tecla()"></div>
        </div>
    </body>
 </html>

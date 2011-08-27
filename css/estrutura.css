@@ -2,7 +2,7 @@ body{background:#ffffff}
 h1{text-align:center;}
 h3{text-align:center;}
 h4{text-align:center;}
-p{text-align:justify;}
+p#citacao{text-align:justify;}
 div{
     width:1000px;
     background:#dddddd;
@@ -20,7 +20,7 @@ div#todo{
     margin-left:auto;
     background:#ffffff
 }
-div#autor{
+div#cabecalho{
     height:130px;
     margin-right:auto;
     margin-left:auto;
@@ -72,4 +72,9 @@ ul#itemMenu{
 }
 ul#itemMenu li{
 	margin-top:10px;
+}
+ul#autor{
+	list-style: none;
+	margin: 0px;
+	text-align:right;
 }

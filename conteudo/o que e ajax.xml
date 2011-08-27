@@ -1,36 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<slide>    
-	<titulo>Descrição da plataforma</titulo>
-    <topico>Ajax é uma plataforma constituída, basicamente, das seguintes tecnologias:
-      <subtopico>XMLHttpRequest</subtopico>
-      <subtopico>DOM</subtopico>
-      <subtopico>Javascript</subtopico>
-      <subtopico>HTML/CSS</subtopico>
-    </topico>
-</slide>
-<slide>
-    <titulo>Proposta</titulo>
-    <topico>Menor Consumo de banda</topico>
-    <topico>Dinâmica</topico>
-    <topico>Aplicação</topico>
-    <topico></topico>
-</slide>
-<slide>
-	<titulo>XMLHttpRequest</titulo>
-    <topico></topico>
-</slide>
-<slide>
-	<titulo>DOM</titulo>
-    <imagem>imagem/ajax/dom.jpg</imagem>
-</slide>
-<slide>
-	<titulo>Javascript</titulo>
-    <topico>Linguagem interpretada</topico>
-    <topico>Web</topico>
-    <topico></topico>
-</slide>
-<slide></slide>
-<slide></slide>
-<slide></slide>
-<slide></slide>
-<slide></slide>
+<conteudo>
+	<slide>    
+		<titulo><texto>Descrição da plataforma</texto></titulo>
+		<topicos>
+    		<topico>
+    			<texto>Ajax é uma plataforma constituída, basicamente, das seguintes tecnologias:</texto>
+      			<subtopicos>
+      				<subtopico><texto>XMLHttpRequest</texto></subtopico>
+      				<subtopico><texto>DOM</texto></subtopico>
+      				<subtopico><texto>Javascript</texto></subtopico>
+      				<subtopico><texto>HTML/CSS</texto></subtopico>
+      			</subtopicos>
+    		</topico>
+    	</topicos>
+	</slide>
+	<slide>
+	    <titulo>Proposta</titulo>
+	    <topicos>
+	    	<topico>Menor Consumo de banda</topico>
+	    	<topico>Dinâmica</topico>
+	    	<topico>Aplicação</topico>
+	    	<topico></topico>
+	    </topicos>
+	</slide>
+	<slide>
+		<titulo>XMLHttpRequest</titulo>
+		<topicos>
+	    	<topico></topico>
+	    </topicos>
+	</slide>
+	<slide>
+		<titulo>DOM</titulo>
+		<topicos>
+			<topico>The W3C Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document.</topico>
+	    </topicos>
+	    <imagem>imagem/ajax/dom.jpg</imagem>
+	</slide>
+	<slide>
+		<titulo>Javascript</titulo>
+	    <topicos>
+	    	<topico>Linguagem interpretada</topico>
+	    	<topico>Web</topico>
+	    	<topico></topico>
+	    </topicos>
+	</slide>
+	<slide></slide>
+	<slide></slide>
+	<slide></slide>
+	<slide></slide>
+	<slide></slide>	
+</conteudo>

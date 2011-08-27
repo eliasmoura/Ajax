@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<introducao>
-	<titulo>Introdução</titulo>
-    <autor>Elias Alves moura</autor>
-    <autor>Rodrigo Castelani dos Santos</autor>
-    <autor>Thiago Cardoso Barbosa</autor>
-    <topico>Neste trabalho será apresentado conseitos básico sobre programação web utilizando a plataforma Ajax.</topico>
-    <topico>Uma breve descrição das tecnologias, aplicações desenvolvidas por empresas  e exemplos de aplicações básicas serão apresentadas neste documento. Além de estatisticas de uso que mostrem as áreas que a Ajax é mais utilizada.</topico>
-</introducao>
+<conteudo>
+	<slide>
+		<titulo><texto>Introdução</texto></titulo>
+		<autores>
+			<autor><texto></texto>Elias Alves moura</autor>
+    		<autor><texto></texto>Rodrigo Castelani dos Santos</autor>
+    		<autor><texto></texto>Thiago Cardoso Barbosa</autor>
+		</autores>
+		<topicos>
+			<topico><texto>Neste trabalho será apresentado conseitos básico sobre programação web utilizando a plataforma Ajax.</texto></topico>
+    		<topico><texto>Uma breve descrição das tecnologias, aplicações desenvolvidas por empresas  e exemplos de aplicações básicas serão apresentadas neste documento. Além de estatisticas de uso que mostrem as áreas que a Ajax é mais utilizada.</texto></topico>
+		</topicos>
+	</slide>
+	<slide></slide>
+</conteudo>
