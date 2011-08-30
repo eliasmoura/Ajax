@@ -1,24 +1,25 @@
-body{background:#ffffff}
+body{background:#FFFFFF}
 h1{text-align:center;}
 h3{text-align:center;}
 h4{text-align:center;}
 p#citacao{text-align:justify;}
 div{
     width:1000px;
-    background:#dddddd;
     padding:0px 0px;
     margin:5px;
-    }
+    background:#ffffff;
+}
 div#conteudo{
     width:800px;
     height:450px;
     margin-right:auto;
+    background:#DDDDDD;
     float:right;
 }
 div#todo{
     margin-right:auto;
     margin-left:auto;
-    background:#ffffff
+    background:#dddddd;
 }
 div#cabecalho{
     height:130px;
@@ -31,7 +32,7 @@ div#menu{
     margin-left:0px;
     width:180px;
     height:450px;
-    background:#000000;
+    background:#DDDDDD;
     float:left;
 }
 div#itemMenu{
@@ -50,7 +51,10 @@ div#itemMenu:active{
 div#itemMenu a:link, a:visited{display:block;
 	text-decoration:none;
 	color: #000000;
-	}
+}
+div#controle{
+	float:right;
+}
 input#itemMenu{
     background:#00ff00;
     width: 155px; height:40px;

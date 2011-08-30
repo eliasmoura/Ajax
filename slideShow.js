@@ -34,27 +34,25 @@ function formatarSlide (slide) {
 function formatarTopico (no) {
 	  	
 	  	topico = "<p><ul>";
-	  	//document.getElementById("conteudo").innerHTML = <h1>oi</h1>;
-	  	var nodeTopico = no.firstChild.nextSibling;//no <topico>
-	  	//nodeTopico = nodeTopico.firstChild;//no #text de topico
 	  	
-	  	for(temp = 0; temp < nodeTopico.childNodes.length;temp++){
-	  		
-	  		if(nodeTopico.nodeType==1){
-	  			topico += "<li>"+nodeTopico.getElementsByTagName('texto')[0].childNodes[0].nodeValue+"</li>";
-	  			
-	  			if ( nodeTopico.nodeName == "subtopicos"){
-	  				var nodeSubtopico = nodeTopico.firstChild.nextSibling;
+	  	var nodeTopico = no.firstChild.nextSibling;
+	  	//alert(no.getElementsByTagName('topico')[0].firstChild.nextSibling.nodeName);
+	  	for(temp = 0; temp < no.getElementsByTagName('topico').length;temp++){
+	  			try{
 	  				
+	  				topico += "<li>"+no.getElementsByTagName('topico')[temp].getElementsByTagName('texto')[0].childNodes[0].nodeValue+"</li>";
+	  			}catch(e){
+	  				
+	  			}
+	  			try{
+	  				var nn = no.getElementsByTagName('topico')[temp].getElementsByTagName('subtopico');
 	  				topico += "<p><ul>";
-	  				for(temp2 = 0; temp2 < (nodeTopico.childNodes.length/2)-1;temp2++){ 
-	  					topico += "<li>"+nodeSubtopico.firstChild.childNodes[0].nodeValue+"</li>";
-	  					nodeSubtopico = nodeSubtopico.nextSibling.nextSibling;
+	  				for(var subno = 0; subno < nn.length; subno++){
+	  					topico += "<li>"
+	  					+nn[subno].getElementsByTagName('texto')[0].childNodes[0].nodeValue+"</li>";
 	  				}
 	  				topico +=  "</ul></p>";
-	  			}
-	  		}
-	  		nodeTopico = nodeTopico.nextSibling;
+	  			}catch(e){}
 	  	}
 	  	topico +=  "</ul></p>";
 	  	return topico;
@@ -84,13 +82,15 @@ function formataAutor (no) {
 }
 
 function mostraSlide (slide) {
+	//alert(xmlDoc.childNodes.length + " " + i);
   	document.getElementById("conteudo").innerHTML = 
   	formatarSlide(slide.getElementsByTagName('slide')[i]);
 }
 
 function slideSeguinte () {
-	if (i<xmlDoc.lenth) {
-		i++;
+	
+	if (true) {
+		++i;
   		mostraSlide(formatarSlide(xmlDoc.getElementsByTagName('slide')[i]));
   	};
 }
