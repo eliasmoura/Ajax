@@ -3,9 +3,9 @@
 	<slide>
 		<titulo><texto>Introdução</texto></titulo>
 		<autores>
-			<autor><texto></texto>Elias Alves moura</autor>
-    		<autor><texto></texto>Rodrigo Castelani dos Santos</autor>
-    		<autor><texto></texto>Thiago Cardoso Barbosa</autor>
+			<autor><texto>Elias Alves moura</texto></autor>
+    		<autor><texto>Rodrigo Castelani dos Santos</texto></autor>
+    		<autor><texto>Thiago Cardoso Barbosa</texto></autor>
 		</autores>
 		<topicos>
 			<topico><texto>Neste trabalho será apresentado conseitos básico sobre programação web utilizando a plataforma Ajax.</texto></topico>

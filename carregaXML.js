@@ -25,5 +25,5 @@ function ajax (url) {
    		xmlDoc=parser.parseFromString(texto,"text/xml");
    }
    
-  mostraSlide(xmlDoc);
+  mostraSlide(xmlDoc.getElementsByTagName('slide')[i]);
 }

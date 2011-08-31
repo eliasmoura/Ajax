@@ -2,65 +2,55 @@ body{background:#FFFFFF}
 h1{text-align:center;}
 h3{text-align:center;}
 h4{text-align:center;}
-p#citacao{text-align:justify;}
+p{text-align:justify;}
 div{
     width:1000px;
-    padding:0px 0px;
-    margin:5px;
     background:#ffffff;
 }
 div#conteudo{
     width:800px;
     height:450px;
-    margin-right:auto;
+    margin-top:10px;
     background:#DDDDDD;
+    padding-left: 10px;
     float:right;
 }
 div#todo{
     margin-right:auto;
     margin-left:auto;
-    background:#dddddd;
 }
 div#cabecalho{
     height:130px;
     margin-right:auto;
     margin-left:auto;
-    padding:3px;
-    border-radius:50px:
+    padding:2px;
+    background:#dddddd;
+    background:#dddddd;
 }
 div#menu{
-    margin-left:0px;
+	margin-top:10px;
     width:180px;
-    height:450px;
-    background:#DDDDDD;
+    height:350px;
+    background:#000000;
     float:left;
-}
-div#itemMenu{
-    background:#00ff00;
-    width: 155px; height:40px;
-    border-radius:10px;
-    -moz-border-radius:10px;
-    -webkit-border-radius:25px;
-}
-div#itemMenu:hover{
-    background:#ff0000;
-}
-div#itemMenu:active{
-	background:#ffff00;
-}
-div#itemMenu a:link, a:visited{display:block;
-	text-decoration:none;
-	color: #000000;
 }
 div#controle{
 	float:right;
+}
+img.grande{
+	margin-bottom: auto;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
 }
 input#itemMenu{
     background:#00ff00;
     width: 155px; height:40px;
     border-radius:13px;
     -moz-border-radius:10px;
-    -webkit-border-radius:25px;
+    <!-- -o-border-radius:10px; -->
+    -webkit-border-radius:10px;
 }
 input#itemMenu:hover{
     background:#ff0000;
@@ -76,6 +66,9 @@ ul#itemMenu{
 }
 ul#itemMenu li{
 	margin-top:10px;
+}
+ul#citacao{
+	list-style: none;
 }
 ul#autor{
 	list-style: none;

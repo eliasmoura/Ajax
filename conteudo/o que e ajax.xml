@@ -15,38 +15,37 @@
     	</topicos>
 	</slide>
 	<slide>
-	    <titulo>Proposta</titulo>
+	    <titulo><texto>Proposta</texto></titulo>
 	    <topicos>
-	    	<topico>Menor Consumo de banda</topico>
-	    	<topico>Dinâmica</topico>
-	    	<topico>Aplicação</topico>
-	    	<topico></topico>
+	    	<topico><texto>Menor Consumo de banda</texto></topico>
+	    	<topico><texto>Dinâmica</texto></topico>
+	    	<topico><texto>Aplicação</texto></topico>
 	    </topicos>
 	</slide>
 	<slide>
-		<titulo>XMLHttpRequest</titulo>
+		<titulo><texto>XMLHttpRequest</texto></titulo>
 		<topicos>
-	    	<topico></topico>
+	    	<topico><texto>um texto</texto></topico>
 	    </topicos>
 	</slide>
 	<slide>
-		<titulo>DOM</titulo>
-		<topicos>
-			<topico>The W3C Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document.</topico>
-	    </topicos>
-	    <imagem>imagem/ajax/dom.jpg</imagem>
+		<titulo><texto>DOM</texto></titulo>
+	    <citacao>
+				<texto>The W3C Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document.</texto>
+				<autor>Abrobinha!!</autor>
+		</citacao>
+		<imagem>imagens/xmlnodetree.gif</imagem>
 	</slide>
 	<slide>
-		<titulo>Javascript</titulo>
+		<titulo><texto>DOM</texto></titulo>
+		<imagem>imagens/xmlnodetree.gif</imagem>
+	</slide>
+	<slide>
+		<titulo><texto>Javascript</texto></titulo>
 	    <topicos>
-	    	<topico>Linguagem interpretada</topico>
-	    	<topico>Web</topico>
-	    	<topico></topico>
+	    	<topico><texto>Linguagem interpretada</texto></topico>
+	    	<topico><texto>Web</texto></topico>
+	    	<topico><texto></texto></topico>
 	    </topicos>
 	</slide>
-	<slide></slide>
-	<slide></slide>
-	<slide></slide>
-	<slide></slide>
-	<slide></slide>	
 </conteudo>
