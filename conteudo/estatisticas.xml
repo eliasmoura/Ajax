@@ -4,3 +4,24 @@
 		<titulo><texto>Estatisticas de uso</texto></titulo>
 	</slide>
 </conteudo>
+<!--
+AJAX Adoption Up 11%, North American Outsourcing On the Rise: Evans Data Survey 
+ 
+ * AJAX Adoption Up 11%, North American Outsourcing On the Rise: Evans Data Survey
+ &nbspJavaScriptSearch
+ Wednesday, May 24, 2006 02:11 AM
+ 
+ The face of North American development continues to change rapidly,  according to Evans Data's Spring 2006 North American Development Survey. This is evidenced by an 18% increase in the use of contractors  and a 25% increase in overall outsourcing. Outsourcing by the corporate enterprise segment, which accounted for 57% of the development effort, increased by 37%. Off shoring played a major role with over 37% of North American companies sending development off shore, representing a 20% increase from the prior study. Additionally, in this same period the study indicates an increased willingness by a greater number of small and medium companies to pursue outsourcing and off shoring. 
+ "The focus has shifted away from outsourcing or off shoring simply to save costs toward strategic talent acquisition of more highly qualified workers who have been trained in the technology areas that are driving business process change and revenue generation," said John Andrews, President of Evans Data. "We see this trend continuing to play a critical role going forward as the pressure on IT to be ever more agile and innovative will only increase."
+ http://deepdictionary.com/webmaster-other-topics/628918-ajax-adoption-up-11-north-american-outsourcing-rise-evans-data-survey.html
+ -->
+ 
+ <!--
+ Developer Use of AJAX Up 10%, Java Still the Leader Says Evans Data's Fall Survey
+ The use of Visual Basic, one of the most popular computer languages throughout the last fifteen years, is eroding dramatically according to Evans Data’s Fall 2006 North American Development Survey. Overall, developer use of the Visual Basic family has dropped off by 35% since last spring. As expected, developers are finally leaving VB6 and earlier versions, they’re also leaving VB.NET; which is down by 26%. This means Java now holds the market penetration lead at 45% (with developers using Java during some portion of their time), followed by C/C++ at 40%, and C# at 32%. 
+
+“Microsoft has dominated languages since the early 90’s but we are seeing much more parity now,” said John Andrews, President, Evans Data. “The use of scripting languages, as well as Java, appear to have limited VB’s future market potential.” 
+
+Other findings from the Fall Survey of more than 430 developers in North America:
+ http://java.sys-con.com/node/307112
+ -->

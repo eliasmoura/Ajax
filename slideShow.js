@@ -28,6 +28,8 @@ function formatarSlide (slide) {
 	  			//verifica se é no de imagem
 	  			if (node.nodeName == "imagem")
 	  				texto += formataImagem(node);
+	  			if(node.nodeName == "video")
+	  				texto += formataVideo(node);
 			}
 		}
   	return texto;
@@ -38,7 +40,15 @@ function formatarTopico (no) {
 	  	for(temp = 0; temp < no.getElementsByTagName('topico').length;temp++){
 	  			//tenta pegar o conteudo do elemento
 	  			try{
-	  				topico += "<li>"+no.getElementsByTagName('topico')[temp].getElementsByTagName('texto')[0].childNodes[0].nodeValue+"</li>";
+	  				var noTopico = no.getElementsByTagName('topico')[temp];
+	  				topico += "<li>"+noTopico.getElementsByTagName('texto')[0].childNodes[0].nodeValue;
+	  				//tenta acessar o nó referência(em)
+	  				try{
+	  					topico += "<br />" +no.getElementsByTagName('topico')[temp].getElementsByTagName('em')[0].childNodes[0].nodeValue;
+	  				}catch(e){
+	  					
+	  				}
+	  				topico+="</li>";
 	  			}catch(e){
 	  				//se der errado faça nada
 	  			}
@@ -77,10 +87,11 @@ function formataCitacao (no) {
 function formataAutor (no) {
   var autor = "";
   try{
+  	var noAutor = no.getElementsByTagName('autor'); 
   	autor = "<p><ul id='autor'>";
-  	for(temp = 0; temp < no.getElementsByTagName('autor').length;temp++){
+  	for(temp = 0; temp < noAutor.length;temp++){
   		autor += "<li>"+
-	  	no.getElementsByTagName('autor')[temp].firstChild.nextSibling.nodeValue+"</li>";
+	  	noAutor[temp].getElementsByTagName('texto')[0].childNodes[0].nodeValue+"</li>";
   	}
   	autor +=  "</ul></p>";
   }catch(e){
@@ -93,6 +104,18 @@ function formataImagem(no){
 	return "<img class=\"grande\" src=\"" + no.childNodes[0].nodeValue+"\" />";
 }
 
+function formataVideo(no){
+	var video = "";
+	try{
+		video = "<video controls='controls' width=\"640\" height=\"400\" audio=\"muted\"> "
+			+"<source src=\""+no.childNodes[0].nodeValue+"\" type=\"video/ogg\" />"
+			+"</video>";
+	}catch(e){
+		
+	}
+	return video;
+}
+
 function mostraSlide (slide) {
 	//alert(xmlDoc.childNodes.length + " " + i);
   	document.getElementById("conteudo").innerHTML = 
@@ -100,17 +123,15 @@ function mostraSlide (slide) {
 }
 
 function slideSeguinte () {
-	
 	if (i< xmlDoc.getElementsByTagName('slide').length) {
 		++i;
 		mostraSlide(xmlDoc.getElementsByTagName('slide')[i]);
-  		//mostraSlide(xmlDoc.getElementsByTagName('slide')[i]);
   	}
 }
 
 function slideAnterior () {
-	
 	if (i>0){
-	i--;
-  	mostraSlide(formatarSlide(xmlDoc));}
+		--i;
+  		mostraSlide(xmlDoc.getElementsByTagName('slide')[i]);
+  	}
 }

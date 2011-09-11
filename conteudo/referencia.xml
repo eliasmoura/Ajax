@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <conteudo>
 	<slide>
-		<titulo><texto>Referência</texto></titulo>
-		
+		<titulo><texto>Referências</texto></titulo>
+		<topicos>
+			<topico>
+				<texto>XML Tutorial</texto>
+				<em>http://w3schools.com/xml/default.asp</em>
+			</topico>
+			<topico>
+				<texto>HTML Tutorial</texto>
+				<em>http://w3schools.com/html/default.asp</em>
+			</topico>
+			<topico>
+				<texto>CSS Tutorial</texto>
+				<em>http://w3schools.com/css/default.asp</em>
+			</topico>
+			<topico>
+				<texto>JavaScript Tutorial</texto>
+				<em>http://w3schools.com/js/default.asp</em>
+			</topico>
+			<topico>
+				<texto>AJAX Tutorial</texto>
+				<em>http://w3schools.com/ajax/default.asp</em>
+			</topico>
+			<topico>
+				<texto>XML DOM Tutorial</texto>
+				<em>http://w3schools.com/dom/default.asp</em>
+			</topico>
+			<topico>
+				<texto>JavaScript and HTML DOM Reference</texto>
+				<em>http://w3schools.com/jsref/default.asp</em>
+			</topico>
+		</topicos>
+	</slide>
+	<slide>
+		<titulo><texto>Referências</texto></titulo>
+		<topicos>
+		<topico>
+				<texto>JavaScript – Aplicações Interativas para a Web</texto>
+				<em>http://www.apostilando.com/download.php?cod=2857</em>
+			</topico>
+		</topicos>
 	</slide>
 </conteudo>

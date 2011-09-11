@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <conteudo>
 	<slide>
-		<titulo><texto>Exemplos de aplicações</texto></titulo>
+		<titulo><texto>IGoogle - Pagina personalizada</texto></titulo>
+		<video>videos/ig.ogv</video>
+	</slide>
+	<slide>
+		<titulo><texto>Google Maps</texto></titulo>
+		<video>videos/maps.ogv</video>
+	</slide>
+	<slide>
+		<titulo><texto>Cadastro(Twiter)</texto></titulo>
+		<video>videos/cadastro_twiter.ogv</video>
 	</slide>
 </conteudo>
